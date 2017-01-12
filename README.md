@@ -8,7 +8,6 @@ The main propouse of this project is to practicing programming, using a known pl
 
 The full amount spent was under US$200, in Brazil. Thats including the tools like a Voltimeter by Ford and soldering equip. All parts are from China, except the orginal Arduino chipset and the chassis, wich is made by a local company, and its was too the most expensive piece (around U$70). 
 Thats the list of parts used:
-- Power suply: 2 separate packs of 6 rechargeble cells each (soldered in series), getting around 8 Volts each when charged. (Arduino needs al least 7 volts to work with all the sensors and lights). Onde pack gos to the driver input so it powers the motors. Another oack powers the microcontroller. The motors batteries goes fast, around 20 minutes-max of constant walking around. The Arduino pack lasts up to 6 hours with al least 7 volts.
 - Original Arduino Board from Italy
 - 1 Ultrasonic Sensor HC-SR04
 - L293D H-bridge as motors driver.
@@ -18,6 +17,7 @@ Thats the list of parts used:
 - red LED mounted inside as a pulsing heart, always pulsing when the arduino is on.
 - 2 IR sensor for cliff/end of table avoidance (not implemented yet)
 - Chassis made on acrylics + dummy wheel.
+- Power suply: 2 separate packs of 6 rechargeble cells each (soldered in series), getting around 8 Volts each when charged. (Arduino needs al least 7 volts to work with all the sensors and lights). Onde pack gos to the driver input so it powers the motors. Another oack powers the microcontroller. The motors batteries goes fast, around 20 minutes-max of constant walking around. The Arduino pack lasts up to 6 hours with al least 7 volts.
 
 For the code Im building my own algorithm so it has its own personality.
 
