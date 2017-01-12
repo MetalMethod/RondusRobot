@@ -10,9 +10,9 @@ The full amount spent was under US$200, in Brazil. Thats including the tools lik
 Thats the list of parts used:
 - Original Arduino Board from Italy
 - 1 Ultrasonic Sensor HC-SR04
-- L293D H-bridge as motors driver.
-- 2 6-12V DC motos, I never found their model but are those straight yellow that are sold in hobby shops.
-- a voltimeter digital display for checking battery life on board
+- L293D H-bridge as the motors driver.
+- 2 6-12V DC motors: I never found their model but are those straight yellow that are sold in hobby shops and Ali Express.
+- a voltimeter digital display for checking battery life on board + switch.
 - cables and input jack
 - red LED mounted inside as a pulsing heart, always pulsing when the arduino is on.
 - 2 IR sensor for cliff/end of table avoidance (not implemented yet)
