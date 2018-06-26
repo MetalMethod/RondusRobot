@@ -172,7 +172,7 @@ void echoCheck() { // Timer2 interrupt calls this function every 24uS where you 
 void drive() {
 
   pingCm = sonar.ping_cm();
-  echoCheck();
+  //echoCheck();
   
   if (pingCm >= 30 || pingCm == 0) {
     delay(100);
@@ -189,13 +189,10 @@ void drive() {
 }
 
 
-
 //ARDUINO METHOD
 void loop() {
-  //drive();
+  drive();
 
-  //forward(); 
-  //spinLeft(); 
-  spinRight(); 
+  
 }
 
